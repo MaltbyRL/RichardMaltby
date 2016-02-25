@@ -1,0 +1,84 @@
+body {
+  padding: 5px;
+  font-family: 'Copperplate', helvetica;
+  font-size: 14px;
+}
+a {
+  color: #00B7FF;
+}
+.divSplashBackground#splashBackground {
+  background-image: url('../images/skyBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110vw;
+  height: 120vh;
+  position: absolute;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+
+}
+.container #splashPage {
+  padding: 2vw;
+  text-align: center;
+  height: 55vw;
+  max width: 85vw;
+  overflow: scroll;
+}
+.container#aboutMe {
+  text-align: center;
+  height: 20vw;
+  max width: 85vw;
+  /*content: normal;
+  display:block;
+  clear:left;
+  visibility:hidden;*/
+}
+.container#contactInfo {
+  height: 20vw;
+  max width: 85vw;
+}
+.header {
+  font-size: 5vw;
+  color: darkgrey;
+  font-family: 'Copperplate', helvetica;
+  text-align: center;
+}
+.quote {
+  font-size: 2vw;
+  font-style: italic;
+  font-family: 'Copperplate', helvetica;
+  color: lightgrey;
+}
+.quoteBy {
+  font-size: 3vw;
+  font-family: 'Copperplate', helvetica;
+  font-weight: 400;
+}
+
+.testBlock {
+  border: 2px solid black;
+}
+.profileName {
+  font-size: 2vw;
+  color: grey;
+  font-family: 'Copperplate', helvetica;
+  text-align: center;
+
+}
+.profileImg img{
+  padding-top: 10px;
+  overflow: hidden;
+  width: 20vw;
+}
+
+.linkIcon img {
+  max-height: 3vw;
+  max-width: 3vh;
+}
+.topBarIcons img {
+  max-height: 25px;
+}
