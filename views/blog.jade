@@ -1,9 +1,18 @@
 extends layout
 
 block content
-  .this
-
-  iframe(style="width:90vw; height:90vh;" src='https://richardmaltbyblog.wordpress.com/', frameborder='0', allowfullscreen)
+  //- .background
+  .container
+    .row(style="height: 2vh;")
+    .row
+      .col-md-1(style="overflow: scroll;")
+        .row.fifty
+        .row
+          a.btn.btn-large.btn-gray(href='/aboutMe' style="") Prev
+      .col-md-10(style="overflow: scroll;")
+        iframe(style="width: 70vw; height:85vh;" src='https://richardmaltbyblog.wordpress.com/', frameborder='0', allowfullscreen)
+      
+      
 
 
   block scripts

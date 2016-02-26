@@ -10,7 +10,7 @@ a {
   background-image: url('../images/bookSplash.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -21,28 +21,24 @@ nav.navbar {
   align-items:
 }
 body {
-  width: 90vw;
+  width: 100vw;
+  height: 100vh;
 }
 .background {
   background-image: url('../images/bookSplash.jpeg');
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
   position: absolute;
-  -webkit-filter: blur(15px);
-  -moz-filter: blur(15px);
-  -o-filter: blur(15px);
-  -ms-filter: blur(15px);
-  filter: blur(15px);
 
 
 }
 .container #splashPage {
 
   text-align: center;
-  height: 55vw;
+  height: 100vh;
   max width: 100vw;
   overflow: scroll;
 }
@@ -101,4 +97,33 @@ body {
 }
 .topBarIcons img {
   max-height: 25px;
+}
+.fifty {
+  height: 50vh;
+  position: sticky;
+}
+
+/*buttons*/
+
+a.btn,.btn {
+  margin-right: 1px; /* remove this while use*/
+  margin-bottom: 1px; /* remove this while use*/
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+	font-family: inherit;
+	font-weight: 300;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	border: 1px solid;
+	transition: all 0.2s ease;
+	box-sizing: border-box;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+}
+/* Radius */
+.btn-radius {
+  border-radius: 3px;
 }

@@ -1,13 +1,20 @@
 extends layout
 
 block content
-  .background
+  link(rel='stylesheet', type='text/css', href='/style/background.css')
+  //- .background
   #splashPage.row
     .row
-      .col-xs-4
+      .col-md-1
+        .row.fifty
+        .row
+          .col-md-12
+            a.btn.btn-large.btn-gray(href='/') Next 
+          
+      .col-md-3
         .row
           .col-xs-12.profileImg
-            img(src='/images/myProfile.jpg', alt='My profile image')
+            img(src='/images/myProfile.png', alt='My profile image')
         .row
           .col-xs-12.profileName Richard Maltby  
         .row
@@ -32,13 +39,16 @@ block content
                   img(src='/images/LinkedInIcon.png', alt='Linked In')
               .col-xs-1
                 br  
-      .col-xs-8
+      .col-md-7
         .row(style="height: 3vw;")
         .row
-          img(src='/images/aboutCodingHouseImg.png', alt='Page about CodingHouse')
-    
-      
-          
+          img(src='/images/aboutCodingHouseImg.png', alt='Page about CodingHouse')  
+      .col-md-1
+        .row.fifty
+        .row
+          .col-md-12
+            a.btn.btn-large.btn-gray(href='/blog') Next 
+            
             
               
 
